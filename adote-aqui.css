@@ -1,0 +1,62 @@
+
+header {
+    width: 100vw; 
+    height: 70px; 
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background: #7FFFD4; 
+    padding: 20px; 
+}
+
+.titulo {
+    font-size: 30px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;  
+}
+
+
+.container2 {
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    height: 100%; 
+    padding: 20px;
+    background: #33CCFF; 
+}
+
+.titulo:hover {
+    font-size : 40px;
+}
+
+
+.menu {
+    font-family: Helvetica , sans-serif;
+    font-size: 20px; 
+    font-weight: bold; 
+}
+
+.menu:hover {
+    color: #0066ff; 
+    cursor: pointer; 
+}
+
+
+@media (max-width:700px) {
+    .titulo {
+        display: none;
+    }
+
+    nav {
+        flex-direction: column; 
+    }
+}
+
+
+
