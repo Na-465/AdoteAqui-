@@ -127,5 +127,9 @@ body {
     nav {
         flex-direction: column; 
     }
+
+    .titulo {
+        display: none; 
+    }
 }
 
