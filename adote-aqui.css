@@ -67,7 +67,7 @@ body {
 }
 
 .container2 {
-    width: 80%;
+    width: 60%;
     display: flex; 
     flex-wrap: wrap;
     justify-content: center; 
@@ -77,7 +77,7 @@ body {
 
 .pet {
     width: 200px; 
-    height: 250px;
+    height: 260px;
     margin: 10px 10px 30px 10px;
     border-radius: 10px;
 
@@ -124,7 +124,7 @@ body {
 
 
 @media (max-width: 700px) {
-    nav {
+    .navbar{
         flex-direction: column; 
     }
 
